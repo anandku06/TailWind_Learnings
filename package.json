@@ -1,0 +1,15 @@
+{
+  "name": "tailwind_learnings",
+  "version": "1.0.0",
+  "description": "All my TailWind CSS learnings here",
+  "main": "input.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.1",
+    "tailwindcss": "^4.0.1"
+  }
+}
