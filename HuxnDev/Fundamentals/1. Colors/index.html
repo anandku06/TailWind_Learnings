@@ -20,8 +20,8 @@
     <h1 class="text-pink-50">Hello World!!</h1>
     <h1 class="text-pink-100">Hello World!!</h1>
     <h1 class="text-pink-200">Hello World!!</h1>
-    <h1 class=">Hello World!!</h1>
-    <h1 class="text-pink-400">Hello World!!</h1>
+    <h1 class="text-pink-300">Hello World!!</h1>
+    <h1 class="text-pink-500">Hello World!!</h1>
     <h1 class="text-pink-500">Hello World!!</h1>
     <h1 class="text-pink-600">Hello World!!</h1>
     <h1 class="text-pink-700">Hello World!!</h1>
@@ -41,7 +41,7 @@
     <p class="bg-red-100 text-white">BackGround Color</p>
     <p class="bg-red-200 text-white">BackGround Color</p>
     <p class="bg-red-300 text-white">BackGround Color</p>
-    <p class="bg-red-400 text-white">BackGround Color</p>
+    <p class="bg-red-500 text-white">BackGround Color</p>
     <p class="bg-red-500 text-white">BackGround Color</p>
     <p class="bg-red-600 text-white">BackGround Color</p>
     <p class="bg-red-700 text-white">BackGround Color</p>
@@ -56,11 +56,46 @@
     <h1>3. Text Decoration</h1>
     <!-- https://tailwindcss.com/docs/text-decoration -->
 
-    <p class="underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!</p>
-    <p class="no-underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!</p>
-    <p class="overline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!</p>
-    <p class="line-through">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!</p>
+    <p class="underline">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!
+    </p>
+    <p class="no-underline">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!
+    </p>
+    <p class="overline">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!
+    </p>
+    <p class="line-through decoration-amber-700">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, esse!
+    </p>
+    <!-- you can also change the color of the decoration used using 'decoration' before the 'color-shade' -->
 
+    <br />
+    <hr />
+    <br />
+
+    <h1>4. Accent Colors</h1>
     <!-- https://tailwindcss.com/docs/accent-color -->
+    <!-- mainly used for checkboxex in forms to set the color of the checked boxes -->
+
+    <input type="checkbox" checked />
+    <input type="checkbox" checked class="accent-yellow-500" />
+    <input type="checkbox" checked class="accent-red-500" />
+    <input type="checkbox" checked class="accent-teal-500" />
+    <input type="checkbox" checked class="accent-pink-500" />
+
+    <br />
+    <hr />
+    <br />
+
+    <h1>5. Arbitrary Colors</h1>
+    <!-- if you want to give your own colors to styling -->
+    <!-- in the class-name use the square brackets and give your desired color code in there -->
+    
+    <textarea class="bg-[#43a34e]"></textarea>
+
+    <br />
+    <hr />
+    <br />
   </body>
 </html>
