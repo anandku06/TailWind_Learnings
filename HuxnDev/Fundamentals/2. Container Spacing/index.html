@@ -7,16 +7,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Container & Spacing</title>
     <style>
-      body{
+      body {
         padding: 5rem;
       }
     </style>
   </head>
   <body>
-    <h2>Margin</h2>
+    <h2>1. Margin</h2>
     <!-- provide margin for x and y axis, top, right, left, bottom, etc.  both using class names -->
     <!-- https://tailwindcss.com/docs/margin -->
-    <div class="m-4 bg-yellow-300">I am all margin!!</div> 
+    <div class="m-4 bg-yellow-300">I am all margin!!</div>
     <!--m-4 means all around margin of 1rem (16px)-->
     <div class="bg-red-300 mx-4">Margin Y axis</div>
     <div class="bg-red-300 my-4">Margin X axis</div>
@@ -24,14 +24,39 @@
     <div class="bg-red-300 ml-4">Margin for left</div>
     <div class="bg-red-300 mr-4">Margin for right</div>
     <div class="bg-red-300 mb-4">Margin for bottom</div>
-
+    
     <!-- Arbitrary Spacing -->
+    <!-- if you want to give spacing values on your own not with the pre-defined values-->
+    <!-- just use the square brackets and give your value in it -->
+    <div class="m-[100px] bg-amber-400">2. Margin spacing (Arbitrary)</div>
 
     <!-- Padding -->
+    <!-- give padding for all the sides together or individually -->
     <!-- https://tailwindcss.com/docs/padding -->
+    <h2>Padding</h2>
+    <div class="bg-lime-300 p-4">Padding all around</div>
+    <!-- p-4 is all side padding of 4 -> 16px/1rem -->
+     <div class="px-4 bg-lime-400">Padding X-axis</div>
+     <div class="py-4 bg-lime-400">Padding Y-axis</div>
+     <div class="pt-4 bg-lime-400">Padding for top</div>
+     <div class="pl-4 bg-lime-400">Padding for left</div>
+     <div class="pr-4 bg-lime-400">Padding for right</div>
+     <div class="pb-[3rem] bg-lime-400">Padding for bottom</div> <!-- arbitrary values for padding using square brackets -->
 
     <!-- https://tailwindcss.com/docs/space -->
     <!-- Space Between X -->
+    <h2>Space between X</h2> <!-- space between two divs (especially in flex) -->
+    <div class="flex space-x-4"> <!-- now the space between the divs in x-axis are of 4 each -->
+      <div class="p-4 bg-teal-300">01</div>
+      <div class="p-4 bg-teal-400">02</div>
+      <div class="p-4 bg-teal-500">03</div>
+    </div>
     <!-- Space Between Y -->
+     <h2>Space between Y</h2>
+    <div class="flex-col space-y-4"> <!-- now the space between the divs in y-axis are of 4 each -->
+      <div class="p-4 bg-pink-300">01</div>
+      <div class="p-4 bg-pink-400">02</div>
+      <div class="p-4 bg-pink-500">03</div>
+    </div>
   </body>
 </html>
