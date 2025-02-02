@@ -7,14 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Container & Spacing</title>
     <style>
-      body {
+      body{
         padding: 5rem;
       }
     </style>
   </head>
   <body>
-    <!-- Margin -->
+    <h2>Margin</h2>
+    <!-- provide margin for x and y axis, top, right, left, bottom, etc.  both using class names -->
     <!-- https://tailwindcss.com/docs/margin -->
+    <div class="m-4 bg-yellow-300">I am all margin!!</div> 
+    <!--m-4 means all around margin of 1rem (16px)-->
+    <div class="bg-red-300 mx-4">Margin Y axis</div>
+    <div class="bg-red-300 my-4">Margin X axis</div>
+    <div class="bg-red-300 mt-4">Margin for top</div>
+    <div class="bg-red-300 ml-4">Margin for left</div>
+    <div class="bg-red-300 mr-4">Margin for right</div>
+    <div class="bg-red-300 mb-4">Margin for bottom</div>
 
     <!-- Arbitrary Spacing -->
 
