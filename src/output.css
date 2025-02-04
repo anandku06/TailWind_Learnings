@@ -686,6 +686,27 @@
   .list-none {
     list-style-type: none;
   }
+  .list-image-\[upper-roman\] {
+    list-style-image: upper-roman;
+  }
+  .list-image-\[url\(\)\] {
+    list-style-image: url();
+  }
+  .list-image-\[url\(\.\/\)\] {
+    list-style-image: url(./);
+  }
+  .list-image-\[url\(\.\/src\)\] {
+    list-style-image: url(./src);
+  }
+  .list-image-\[url\(\.\/src\/imag\)\] {
+    list-style-image: url(./src/imag);
+  }
+  .list-image-\[url\(\.\/src\/image\.png\)\] {
+    list-style-image: url(./src/image.png);
+  }
+  .list-image-\[url\(\.\/src\/images\.png\)\] {
+    list-style-image: url(./src/images.png);
+  }
   .flex-col {
     flex-direction: column;
   }
