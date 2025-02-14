@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Float Example</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="p-6 bg-gray-100">
+    <h1 class="text-2xl font-bold mb-4">TailwindCSS Float Classes</h1>
+    <div class="border p-4 bg-blue-200 text-center float-left w-1/3">
+        <h2 class="underline decoration-2 font-mono">Items</h2>
+        <ol class="list-none">
+            <li>Apples - 2kgs</li>
+            <li>Carrots - 1kg</li>
+            <li>Biscuits - 2packs</li>
+        </ol>
+    </div>
+    
+    <div class="border p-4 bg-green-200 float-right text-center w-1/3">
+        <h2 class="underline decoration-2 font-mono">Price</h2>
+        <img class="w-16 md:w-32 lg:w-48" src="./src/images.png" alt="image">
+        <ul class="list-none float-right z-0">
+            <li>Rs. 200/kg</li>
+            <li>Rs. 40/kg</li>
+            <li>Rs. 40/packs</li>
+        </ol>
+    </div>
+
+    <div class="clear-left bg-yellow-300 p-4 mt-10">I clear left float</div>
+
+    <div class="clear-right bg-red-300 p-4 mt-10">I clear right float</div>
+
+    <div class="clear-both bg-teal-300 p-4 mt-10">I clear both float</div>
+  </body>
+</html>
