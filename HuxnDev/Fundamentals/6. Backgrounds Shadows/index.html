@@ -17,29 +17,44 @@
     <!-- https://tailwindcss.com/docs/drop-shadow -->
     <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
     <div class="flex flex-wrap">
-      <div class="w-[400px] mt-10 ml-7 p-3 shadow-md">
-        Shadow Medium
-      </div>
-      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">
-        Shadow Large
-      </div>
-      <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">
-        Shadow xl
-      </div>
-      <div class="w-[400px] mt-10 ml-7 p-3 shadow-2xl">
-        Shadow 2xl
-      </div>
-      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">
-        Inner shadow
-      </div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-md">Shadow Medium</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg">Shadow Large</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-xl">Shadow xl</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-2xl">Shadow 2xl</div>
+      <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner shadow</div>
 
       <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-teal-300">
         Shadow with color: for opacity use (/) slash
       </div>
-
     </div>
 
     <!-- Gradients -->
     <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+    <div
+      class="h-40 bg-gradient-to-r from-teal-200 to-red-400 m-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+      exercitationem ipsum vitae, expedita animi vero officia odio fuga
+      cupiditate cum.
+    </div>
+
+    <div
+      class="h-40 bg-gradient-to-r from-teal-200 via-blue-400 to-red-400 m-10 text-center p-40"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+      exercitationem ipsum vitae, expedita animi vero officia odio fuga
+      cupiditate cum.
+    </div>
   </body>
+  <div
+    class="size-18 rounded-full bg-gradient-radial from-pink-400 via-purple-500 to-fuchsia-700 from-40%"
+  >lorem</div>
+
+  <div
+    class="size-18 rounded-full bg-gradient-radial at-[50%_75%] from-sky-200 via-blue-400 to-indigo-900"
+  >lorem</div>
+
+  <div
+    class="size-18 rounded-full bg-gradient-radial at-[25%_25%] from-white to-zinc-900"
+  >lorem</div>
 </html>
